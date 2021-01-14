@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.top-section{
+    width: 100%;
+    height: 715px;
+    background: #FFFBF0;
+}
+.col-6 img{
+    width:90%;
+}
+.title{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.top{
+    font-size: 80px;
+    line-height: 80px;
+}
+.title span{
+    color: #FABE4C;
+}
+.buy-button{
+    width: 170px;
+    height: 60px;
+    background-image: linear-gradient(#A4BC46 ,#85A019);
+    border: none;
+    border-radius: 10px;
+}
+.buy-button img{
+    width: 23px;
+}
+#product h1{
+    font-size: 48px;
+}
+.card-product{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    border: none;
+}
+.card-img{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    height: 327px;
+}
+.sec-card-img{
+    width: 80%;
+}
+.product-footer{
+    border: none;
+    background-color: transparent;
+    display: inline;
+}
