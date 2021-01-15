@@ -7,12 +7,19 @@ body{
     width: 100%;
     background: #FFFBF0;
     padding-bottom:100px;
+    background-image: url("../images/bg.png");
+    background-position: 50% -13%;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.navbar{
+    padding-left: 0;
 }
 #top-img{
     width:90%;
 }
 .logo img{
-    width: 250px;
+    width: 280px;
 }
 .nav-text{
     font-family: Roboto;
@@ -111,18 +118,27 @@ body{
 .testimonial{
     margin-top: 50px;
     width: 100%;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
     background-image: url("../icons/Quote\ Right_50px.png");
     background-repeat: no-repeat;
     background-position: 80% 30%;
 }
 .testimonial img{
-    width:20%;
+    width:10%;
     border-radius:50%;
 }
 .testimonial-bg{
-    height: 650px;
+    height: 800px;
+}
+.testimonial h6{
+    font-size: 10px;
+}
+.ratings{
+    color: #FABE4C;
+}
+.ratings h6{
+    color: #ca514d;
 }
 @media (max-width: 768px) {
    .title{
@@ -133,7 +149,7 @@ body{
        text-align: left;
    }
    .testimonial{
-       height: 60%;
+        height: 60%;
         background-position: 90% 45%;
    }
    .testimonial-headers h2{
@@ -143,7 +159,10 @@ body{
         height: 450px;
    }
    .testimonial-bg{
-       height: 650px;
+       height: 1100px;
+   }
+   .testimonial img{
+       width:30%
    }
    .contact-card, .testimonial{
         flex-direction: column;
@@ -165,4 +184,12 @@ body{
    .card-title, .card-footer h2{
         font-size: 30px;
    }
+   .top-section{
+       background-image: none;
+   }
+}
+@media (max-width: 1028px){
+    .top-section{
+        background-image: none;
+    }
 }
